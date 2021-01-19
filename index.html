@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+
+<title>Expore Falmouth</title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.17/esri/themes/light/main.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">  
+
+
+  </head>
+
+  <body>
+    
+    <div id="title">
+        <div class="titleText">Historic Falmouth, Jamaica</div>
+        <div class="subtitleText">Mapping 18th & 19th Century Historic Resources</div>
+    </div>
+      
+    <div id="controlDiv">
+        <div id="titleBox"><h1>Explore Falmouth</h1></div>
+        <div id="textBox">
+            <p class="infoText">Falmouth, Jamaica is a small town with a rich history stretching from its founding as a colonial port in the 18th century to its present role as one of the centers of cruise ship-based tourism in Jamaica. The town's multifacetes history and the important role it has played is still evident in the richness of its extant historic architecture from its heyday as one of Jamaica's leading colonial ports.</p>
+            <p class="infoText">In 2000, the University of Virginia began a partnership with Falmouth Heritage Renewal and the Jamaican National Heritage Trust to document the almost 800 historic buildings within the town. Documentation work, taking place under the name the <a href="https://falmouth.lib.virginia.edu/" target="_blank">Falmouth Project</a>, was completed in 2008. While information on the buildings is available through the Falmouth Project's website, this application is intended to provide additional insights into the town's 18th and 19th century buildings by presenting the data in 3D.</p>
+            <p class="infoText">This application shows the town as it would have appeared in the mid-20th century and is based off of a map created by the Survey Department of Jamaica in 1959. Obviously this application leaves out much of the growth that has occurred in the town's south and west but it is an accurate portrayal of the location of Falmouth's most important historic resources from the 18th and 19th centuries.</p> 
+            <p class="infoText">Buildings are color coded to their construction era and an option is provided to toggle cruise terminal infrastructure to visualize how much the 2011 construction of that facility changed the town's appearance and relationship to the sea. Users can click on individual historic buildings to see a popup with an image and building information. An overview imagery map is also available by clicking the map icon in the applications lower right corner.</p>
+            <p class="infoText">Technology used to create this application includes ArcGIS CityEngine for 3d building model generation, ArcMap for general data creation and ArcGIS Pro for generating the map tiles that makeup the application's basemap. Special thanks to the University of Virginia School of Architecture for making Falmouth Project <a href="https://falmouth.lib.virginia.edu/help/" target="_blank">building data and information</a> publically accessible.</p>
+            <p class="infoText">Copyright Daniel H. Watts 2020</p>
+        </div>
+        <table id="switch">
+            <tbody>
+                <tr>
+                    <td>    
+                        <label class="switch"><input type="checkbox" id="cruiseButton"><span class="slider round"></span></label>
+                    </td>
+                    <td>
+                        <h2>Toggle Cruise Terminal</h2>    
+                    </td>    
+                </tr>
+            </tbody>    
+        </table>    
+    </div>
+      
+    <div id="legendDiv">
+        <div id="legendBox">
+            <h1>Building Construction Era</h1>
+            <ol class="zoneLeg">
+              <li class='legend'>1751 - 1800</li>
+              <li class='legend'>1801 - 1850</li>
+              <li class='legend'>1851 - 1900</li>
+            </ol>
+        </div>      
+    </div>  
+    
+    <div id="overview"><div id="extentDiv"></div></div>  
+    <button id="infoButton" class='esri-icon-maps'></button> 
+      
+    <div id="viewDiv"></div>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://js.arcgis.com/4.17/"></script>
+    <script src="js/script.js"></script>  
+  </body>
+</html>
