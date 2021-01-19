@@ -131,6 +131,15 @@
             renderer: labelRenderer
         });  
           
+        const northArrow = new FeatureLayer({
+            url: "https://services5.arcgis.com/CmuSiXApoWtqLYty/arcgis/rest/services/Falmouth_Arrow/FeatureServer",
+            maxScale: 0,
+            minScale: 0,
+            opacity: 0.8,
+            visible: true,
+            renderer: labelRenderer
+        });   
+          
 /*       const ocean = new FeatureLayer({
             url: "https://services5.arcgis.com/CmuSiXApoWtqLYty/arcgis/rest/services/Fal_Ocean/FeatureServer",
             maxScale: 0,
@@ -368,7 +377,7 @@
         });   
           
         var map = new WebScene({
-          layers: [tileBaseMap, histBuildings, nonHistBuildings, terminalBuildings,  terminal, terminalStreets, /*ocean,*/ trees, ship, labels],
+          layers: [tileBaseMap, histBuildings, nonHistBuildings, terminalBuildings,  terminal, terminalStreets, /*ocean,*/ trees, ship, northArrow, labels],
           //ground: "world-elevation"
         });
           
