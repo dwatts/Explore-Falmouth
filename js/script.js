@@ -422,7 +422,7 @@
           },
           constraints: {
               altitude: {
-                min: 100,
+                min: 30,
                 max: 200000,
                 //tilt: 100
               },
