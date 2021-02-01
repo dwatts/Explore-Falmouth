@@ -322,7 +322,7 @@ li.legend:nth-child(3):before {
 /***********Info Button************/
 
 .esri-icon-maps {
-    position: absolute;
+    position: fixed;
     bottom: 85px;
     right: 15px;
     padding: 8px;
