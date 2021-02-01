@@ -318,7 +318,7 @@
         },                                      
         popupTemplate: {
               //title: "{name_e}",
-              content: "<table><tbody><tr><td><img class='siteImage' src='{URL_I}' style='min-width:400px; height:auto; padding-right: 5px;'></td></tr></tbody></table><h1>{Title}</h1><table><tbody><tr><td><h2>Construction Era:</h2></td><td><h3>{Date}</h3></td></tr><tr><td><h2>Building Use:</h2></td><td><h3>{Usage}</h3></td></tr><tr><td><h2>Condition:</h2></td><td><h3>{building_c}</h3></td></tr><tr><td><h2>Survey Date:</h2></td><td><h3>{DateTxt}</h3></td></tr><tr><td><h2>Building Report:</h2></td><td><h3><a href='{URL_R}' target='_blank'>Read the UVa report</a></h3></td></tr><tr></tbody></table><h2 class='desc'>Description:</h2><h3 class='desc'>{Desc1}{Desc2}{Desc3}{Desc4}{Desc5}{Desc6}</h3></div>",
+              content: "<table><tbody><tr><td><img class='siteImage' src='{URL_I}' style='min-width:400px; height:auto; padding-right: 5px;'></td></tr></tbody></table><h1>{Title}</h1><table><tbody><tr><td><h2>Construction Era:</h2></td><td><h3>{Date}</h3></td></tr><tr><td><h2>Building Use:</h2></td><td><h3>{Usage}</h3></td></tr><tr><td><h2>Condition:</h2></td><td><h3>{building_c}</h3></td></tr><tr><td><h2>Survey Date:</h2></td><td><h3>{DateTxt}</h3></td></tr><tr><td><h2>Building Report:</h2></td><td><h3><a href='{URL_R}' target='_blank'>Read the UVa report</a></h3></td></tr><tr></tbody></table><h2 class='desc'>Description:</h2><h3 class='desc'>{Desc1}{Desc2}{Desc3}{Desc4}{Desc5}{Desc6}</h3></div><div><h4>All building images, information and descriptive text courtesy of the University of Virginia's Falmouth Project</h4></div>",
               expressionInfos: arcadeExpressions 
           }, 
                                               
