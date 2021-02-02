@@ -438,7 +438,7 @@
             }
         });
           
-        view.ui.move( "zoom", "bottom-right");  
+        view.ui.move( "zoom", "manual");  
           
         view.popup.viewModel.actions = false;  
           
