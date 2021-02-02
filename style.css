@@ -242,6 +242,8 @@ input:checked + .slider:before {
   bottom: 15px;
   right: 15px;
   position: absolute;
+  padding-right: 0px !important;
+  margin-right: 0px !important;
 }
 
 .esri-ui-corner .esri-component {
@@ -336,7 +338,8 @@ li.legend:nth-child(3):before {
     background-color: #66C2A5 !important;
     border: 0px solid #000 !important;
     border-radius: 25% !important;
-    cursor: pointer
+    cursor: pointer;
+    margin-right: 0px !important;
 }
 
 .esri-icon-collapse {
@@ -351,7 +354,8 @@ li.legend:nth-child(3):before {
     background-color: #66C2A5 !important;
     border: 0px solid #000 !important;
     border-radius: 25% !important;
-    cursor: pointer
+    cursor: pointer;
+    margin-right: 0px !important;
 }
 
 .esri-icon-maps:hover {
