@@ -325,7 +325,7 @@ li.legend:nth-child(3):before {
 /***********Info Button************/
 
 .esri-icon-maps {
-    position: fixed;
+    position: absolute;
     bottom: 85px;
     right: 15px;
     padding: 8px;
@@ -342,10 +342,11 @@ li.legend:nth-child(3):before {
 .esri-icon-collapse {
     position: absolute;
     bottom: 85px;
-    right: 16px;
-    height: 33px;
-    width: 33px;
+    right: 15px;
+    padding: 8px;
     z-index: 1001;
+    text-align: center;
+    text-decoration: none;
     color: #000 !important;
     background-color: #66C2A5 !important;
     border: 0px solid #000 !important;
