@@ -240,7 +240,7 @@ input:checked + .slider:before {
 .esri-zoom  {
   background-color: transparent !important;
   bottom: 15px;
-  right: 15px;
+  right: .85%;
   position: absolute;
 }
 
@@ -327,7 +327,7 @@ li.legend:nth-child(3):before {
 .esri-icon-maps {
     position: absolute;
     bottom: 85px;
-    right: 15px;
+    right: .85%;
     padding: 8px;
     z-index: 1001;
     text-align: center;
@@ -342,7 +342,7 @@ li.legend:nth-child(3):before {
 .esri-icon-collapse {
     position: absolute;
     bottom: 85px;
-    right: 15px;
+    right: .85%;
     padding: 8px;
     z-index: 1001;
     text-align: center;
@@ -363,3 +363,4 @@ li.legend:nth-child(3):before {
     background-color:  #FC8D62 !important;
     color: #000 !important;
 }
+/
