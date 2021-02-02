@@ -241,7 +241,7 @@ input:checked + .slider:before {
   background-color: transparent !important;
   bottom: 15px;
   right: 15px;
-  position: fixed;
+  position: absolute;
 }
 
 .esri-ui-corner .esri-component {
